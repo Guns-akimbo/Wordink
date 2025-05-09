@@ -18,7 +18,7 @@ const StudentWorkSection = ({ id }: Props) => {
     <section className="py-16 px-4  bg-black text-white" id={id}>
       <div className="container mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-          Some Of Our Students' Work
+          Some Of Our Students Work
         </h2>
         <p className="text-xl text-center mb-12 max-w-3xl mx-auto">
           Here are real examples of projects our students have created after

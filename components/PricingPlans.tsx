@@ -9,7 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { CheckCircle, ArrowRight, Shield } from "lucide-react";
+import { CheckCircle, Shield } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 interface PricingPlansProps {
@@ -19,7 +19,6 @@ interface PricingPlansProps {
 const PricingPlans = ({ id }: PricingPlansProps) => {
   const isMobile = useIsMobile();
 
-  const handlePurchase = (planName: string, price: string) => {};
 
   const plans = [
     {
@@ -34,7 +33,6 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
       ctaPrice: "15,000",
       ctaPrice3: "Join Our Waitlist for 25% Off",
       primary: true,
-      ctaAction: () => handlePurchase("Learn-On-Your-Own", "20,000"),
     },
     {
       name: "Learn-With-Me",
@@ -54,7 +52,6 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
       ctaPrice3: "Join Our Waitlist for 25% Off",
       popular: true,
       primary: true,
-      ctaAction: () => handlePurchase("Learn-With-Me", "40,000"),
     },
   ];
 
@@ -75,7 +72,7 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 lg:gap-8 max-w-6xl mx-auto">
-          {plans.map((plan, index) => (
+          {plans.map((plan) => (
             <Card
               key={plan.name}
               className={`w-full max-w-md relative ${
@@ -125,7 +122,6 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
               <CardFooter className="pt-2 md:pt-4 flex flex-col space-y-4">
                 <p className="text-[#F97316]"> {plan.ctaPrice3}</p>
                 <Button
-                  onClick={plan.ctaAction}
                   className={`w-full py-3 md:py-4 text-sm sm:text-base ${
                     plan.primary
                       ? "bg-[#F97316] hover:bg-[#E86305] text-white"

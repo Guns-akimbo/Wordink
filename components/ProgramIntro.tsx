@@ -52,7 +52,7 @@ const ProgramIntro = ({ id, onCtaClick }: ProgramIntroProps) => {
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold mb-2">Personalized Coaching</h3>
                   <p className="text-gray-700">
-                    We don't just teach you copywriting, we train you, coach you, holding your hands every step of the way till you get results.
+                    We don`t just teach you copywriting, we train you, coach you, holding your hands every step of the way till you get results.
                   </p>
                 </div>
               </div>

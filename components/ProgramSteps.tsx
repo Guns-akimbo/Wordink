@@ -1,6 +1,6 @@
 "use client";
 import { Card, CardContent } from "@/components/ui/card";
-import { FileText, Pen, Briefcase, DollarSign, ArrowRight } from "lucide-react";
+import { FileText, Pen, Briefcase, DollarSign,  } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 interface ProgramStep {

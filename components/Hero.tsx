@@ -1,11 +1,8 @@
-'use client'
+"use client";
 import { Button } from "@/components/ui/button";
 import WaitlistCountdown from "./waitlist";
 
-
-
 const HeroSection = () => {
-
   return (
     <>
       <section className="relative py-13 overflow-hidden bg-gradient-to-b from-[#F97316] to-[#FFDEE2]">
@@ -15,15 +12,10 @@ const HeroSection = () => {
         <div className="absolute top-1/4 left-1/2 w-24 h-24 bg-[#F97316]/20 rounded-full transform -translate-x-1/2"></div>
 
         <div className="container mx-auto px-4 relative z-10">
-          {/* Prominent Countdown Timer */}
-          <div className="max-w-4xl mx-auto mb-10">
-            {/* <WaitlistCountdown /> */}
-          </div>
+          <div className="max-w-4xl mx-auto mb-10"></div>
 
           <div className="flex flex-col laptop:flex-row items-center justify-between gap-12">
             <div className="laptop:w-3/5 order-2 laptop:order-1">
-              {/* <div className="bg-gradient-to-r from-[#FFF8E9] to-[#FFDEE2] py-6 px-4 rounded-xl shadow-lg border border-[#F97316]/20">
-            </div> */}
               <div className="bg-white/60 backdrop-blur-sm p-8 laptop:p-10 rounded-2xl shadow-xl border border-[#F97316]/20">
                 <div className="inline-block px-4 py-2 rounded-full bg-[#F97316]/10 text-black font-normal text-sm mb-4">
                   Join 300+ Copywriters Already Building Successful Careers
@@ -46,8 +38,6 @@ const HeroSection = () => {
                 >
                   Sounds Juicy... Join Our Waitlist
                 </Button>
-
-                {/* <CountdownTimer /> */}
 
                 <p className="mt-4 text-sm text-gray-600">
                   Limited spots available. Enrollment closes soon!

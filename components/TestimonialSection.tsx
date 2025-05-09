@@ -57,7 +57,8 @@ const TestimonialCard = ({ testimonial, index }: { testimonial: Testimonial; ind
         <div className="absolute top-0 left-0 w-full h-2 bg-[#F97316]"></div>
         <CardHeader className="pt-8">
           <div className="flex items-center gap-4">
-            <img 
+          <img
+
               src={testimonial.image} 
               alt={testimonial.name} 
               className="w-16 h-16 rounded-full object-cover"
@@ -74,7 +75,7 @@ const TestimonialCard = ({ testimonial, index }: { testimonial: Testimonial; ind
           </div>
         </CardHeader>
         <CardContent>
-          <p className="italic text-black">"{testimonial.quote}"</p>
+          <p className="italic text-black">`{testimonial.quote}`</p>
         </CardContent>
       </Card>
     </div>

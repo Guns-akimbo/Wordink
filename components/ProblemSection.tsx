@@ -1,8 +1,6 @@
-import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import Problem from "./Problem";
 import { AlertTriangle } from "lucide-react";
-import CountdownTimer from "./CountdownTimer";
 
 const ProblemSection = () => {
   return (
@@ -97,7 +95,7 @@ const ProblemSection = () => {
               </div>
               
               <div className="pl-9">
-                <p className="text-lg italic text-gray-700">Random YouTube videos or those 'copywriting in 1 week' courses can't do that for you.</p>
+                <p className="text-lg italic text-gray-700">Random YouTube videos or those `copywriting in 1 week` courses can't do that for you.</p>
               </div>
             </div>
             

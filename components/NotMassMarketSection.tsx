@@ -17,7 +17,7 @@ const NotMassMarketSection = () => {
     <section className="py-16 px-4 bg-black text-white">
       <div className="container mx-auto max-w-3xl text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-8">
-          This is NOT a "Mass Market" Course{" "}
+          This is NOT a "Mass Market" Course
         </h2>
         <p className="text-xl mb-8">
           Once spots fill up, enrollment closes. This means you’d have to keep

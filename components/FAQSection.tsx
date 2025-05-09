@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 
 interface FAQSectionProps {
   id?: string;
