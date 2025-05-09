@@ -30,7 +30,7 @@ const StudentWorkSection = ({ id }: Props) => {
               <Card className="border-none shadow-lg">
                 <CardContent className="p-6 cursor-pointer">
                   <img
-                    src="/techy.png"
+                    src="/Techy.png"
                     alt="Student work example"
                     className="w-full h-64 object-contain rounded-lg mb-4"
                     onClick={() => {
@@ -72,7 +72,7 @@ const StudentWorkSection = ({ id }: Props) => {
               <Card className="border-none shadow-lg">
                 <CardContent className="p-6 cursor-pointer">
                   <img
-                    src="/azach.jpeg"
+                    src="/Azach.jpeg"
                     alt="Student work example"
                     className="w-full h-64 object-cover rounded-lg mb-4 p-2"
                     // onClick={''}

@@ -58,7 +58,7 @@ const DesiredLifeSection = () => {
         </div>
         
         <div className="text-center">
-          <Button onClick={handleCtaClick} size="lg" className="bg-[#F97316] hover:bg-[#E86305] text-white px-8 py-6 text-lg rounded-xl">
+          <Button onClick={handleCtaClick} size="lg" className="bg-[#F97316] hover:bg-[#E86305] text-white w-[90%]  laptop:px-8 py-6  text-base laptop:text-lg rounded-xl">
             I WANT THIS LIFE - ENROLL NOW 
           </Button>
           

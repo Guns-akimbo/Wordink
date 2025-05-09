@@ -19,7 +19,7 @@ const WaitlistCountdown = () => {
       <Button
         onClick={onCtaClick}
         size="lg"
-        className="bg-[#F97316]  text-white text-base h-[60px] w-full lg:w-[150px]"
+        className="bg-[#F97316]  text-white text-base h-[60px] w-[90%] laptop:w-[150px]"
       >
         Enroll Now
       </Button>
