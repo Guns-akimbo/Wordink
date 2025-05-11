@@ -54,6 +54,7 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
       primary: true,
       paymentLink:
         "https://paystack.com/buy/wordink-copywriting-course-learn-with-me-package",
+        code:'WORDINKLWM'
     },
   ];
 
