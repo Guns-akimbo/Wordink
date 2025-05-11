@@ -16,7 +16,7 @@ const Features = () => {
   };
   
   return (
-    <section className="word py-16 px-4  text-white" id="features">
+    <section className="bg-black/80 py-16 px-4  text-white" id="features">
       <div className="container mx-auto">
         <h2 className="text-3xl laptop:text-6xl  font-bold mb-12 text-[#ec8942] text-center">
           What You’ll Get Inside The WordInk Copywriting Program{" "}

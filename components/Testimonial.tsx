@@ -7,32 +7,30 @@ const Testimonial = () => {
       highlightColor="white"
       testimonials={[
         {
-          name: "Sarah Johnson",
-          role: "Freelance Copywriter",
-          image:
-            "https://images.pexels.com/photos/31496004/pexels-photo-31496004/free-photo-of-artistic-portrait-with-motion-blur-at-night.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+          name: "Ajaghaku Onyinye ",
+          role: "Alumni",
+          image: "/onyi.jpeg",
+
           quote:
-            "I was struggling to land clients until I took this program. Now I have a waiting list and I've doubled my rates!",
+            "This program eliminates guesswork when it comes to writing in a way that connects with people.I've never felt this clear and confident in my writing. For anyone who wants to become an elite copywriter, this program is a must!",
           stars: 5,
         },
         {
-          name: "Michael Chen",
-          role: "E-commerce Store Owner",
-          image:
-            "https://images.pexels.com/photos/31496004/pexels-photo-31496004/free-photo-of-artistic-portrait-with-motion-blur-at-night.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+          name: "Feranmi Ajileye Lola",
+          role: "Alumni",
+          image: "/feranmi.jpeg",
 
           quote:
-            "The email sequence templates alone paid for the course in the first month. My conversion rate jumped by 34%!",
+            "This program has been amazing so far, thanks to our coaches.It's the simplicity, interactivity and practicality that I appreciate so much. It was easy to understand, like I was learning all about copywriting on the spot.",
           stars: 5,
         },
         {
-          name: "Aisha Patel",
-          role: "Marketing Consultant",
-          image:
-            "https://images.pexels.com/photos/31496004/pexels-photo-31496004/free-photo-of-artistic-portrait-with-motion-blur-at-night.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+          name: "Trina",
+          role: "Alumni",
+          image: "/trina.jpeg",
 
           quote:
-            "This is the only copywriting program that actually delivers practical, usable techniques. Game changer for my business.",
+            "Words fail me when I try to express how much of a blessing it has been learning from you. You're the kind of coach any copywriter would be lucky to have. You taught with your heart,soul and a dedication I've never seen before.",
           stars: 5,
         },
       ]}

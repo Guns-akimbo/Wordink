@@ -5,7 +5,7 @@ import { useInView } from "@/hooks/useInView";
 
 interface Testimonial {
   name: string;
-  role: string;
+  role?: string;
   quote: string;
   image: string;
   stars: number;

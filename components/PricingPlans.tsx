@@ -19,7 +19,6 @@ interface PricingPlansProps {
 const PricingPlans = ({ id }: PricingPlansProps) => {
   const isMobile = useIsMobile();
 
-
   const plans = [
     {
       name: "Learn-On-Your-Own",
@@ -31,8 +30,9 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
       ],
       ctaText: "Enroll Now",
       ctaPrice: "15,000",
-      ctaPrice3: "Join Our Waitlist for 25% Off",
       primary: true,
+      paymentLink:
+        "https://paystack.com/buy/wordink-self-paced-copywriting-course",
     },
     {
       name: "Learn-With-Me",
@@ -49,9 +49,10 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
       ],
       ctaText: "Enroll Now",
       ctaPrice: "30,000",
-      ctaPrice3: "Join Our Waitlist for 25% Off",
       popular: true,
       primary: true,
+      paymentLink:
+        "https://paystack.com/buy/wordink-copywriting-course-learn-with-me-package",
     },
   ];
 
@@ -120,13 +121,21 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
               </CardContent>
 
               <CardFooter className="pt-2 md:pt-4 flex flex-col space-y-4">
-                <p className="text-[#F97316]"> {plan.ctaPrice3}</p>
+                <p className="text-[#F97316] text-center">
+                  {" "}
+                  Use discount code{" "}
+                  <span className="text-black/70 font-bold ">
+                    WORDINKWAITLITST{" "}
+                  </span>{" "}
+                  at checkout for 25% off
+                </p>
                 <Button
                   className={`w-full py-3 md:py-4 text-sm sm:text-base ${
                     plan.primary
                       ? "bg-[#F97316] hover:bg-[#E86305] text-white"
                       : "bg-gray-800 hover:bg-black text-white"
                   }`}
+                  onClick={() => {plan.paymentLink && window.open(plan.paymentLink, "_blank")}}
                 >
                   {plan.ctaText} <span className="ml-1">₦{plan.ctaPrice}</span>
                 </Button>
