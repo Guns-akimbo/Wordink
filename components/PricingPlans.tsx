@@ -135,7 +135,11 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
                       ? "bg-[#F97316] hover:bg-[#E86305] text-white"
                       : "bg-gray-800 hover:bg-black text-white"
                   }`}
-                  onClick={() => {plan.paymentLink && window.open(plan.paymentLink, "_blank")}}
+                  onClick={() => {
+                    if (plan.paymentLink) {
+                      window.open(plan.paymentLink, "_blank");
+                    }
+                  }}
                 >
                   {plan.ctaText} <span className="ml-1">₦{plan.ctaPrice}</span>
                 </Button>
