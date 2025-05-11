@@ -33,6 +33,7 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
       primary: true,
       paymentLink:
         "https://paystack.com/buy/wordink-self-paced-copywriting-course",
+        code:'WORDINKWAITLIST'
     },
     {
       name: "Learn-With-Me",
@@ -125,7 +126,7 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
                   {" "}
                   Use discount code{" "}
                   <span className="text-black/70 font-bold ">
-                    WORDINKWAITLIST{" "}
+                    {plan.code}
                   </span>{" "}
                   at checkout for 25% off
                 </p>
