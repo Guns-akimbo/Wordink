@@ -130,7 +130,7 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
                   at checkout for 25% off
                 </p>
                 <Button
-                  className={`w-full py-3 md:py-4 text-sm sm:text-base ${
+                  className={`w-full cursor-pointer py-3 md:py-4 text-sm sm:text-base ${
                     plan.primary
                       ? "bg-[#F97316] hover:bg-[#E86305] text-white"
                       : "bg-gray-800 hover:bg-black text-white"
