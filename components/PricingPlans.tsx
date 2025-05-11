@@ -125,7 +125,7 @@ const PricingPlans = ({ id }: PricingPlansProps) => {
                   {" "}
                   Use discount code{" "}
                   <span className="text-black/70 font-bold ">
-                    WORDINKWAITLITST{" "}
+                    WORDINKWAITLIST{" "}
                   </span>{" "}
                   at checkout for 25% off
                 </p>
