@@ -22,8 +22,8 @@ const ProblemSection = () => {
               <CardContent className="p-6">
                 <p className="text-lg">
                   You heard copywriting pays like crazy, so you can stop
-                  pretending you like my 9-5 or it can double as a killer
-                  side-hustle. So you want in
+                  pretending you like your 9-5 or it can double as a killer
+                  side-hustle.
                 </p>
               </CardContent>
             </Card>
@@ -38,7 +38,7 @@ const ProblemSection = () => {
             <Card className="border-l-4 border-l-[#F97316] shadow-lg">
               <CardContent className="p-6">
                 <p className="text-lg">
-                  You have a business, but now your hearing you need
+                  You have a business, but now you're hearing you need
                   copywriting to make sales. You just want to know how that
                   works.
                 </p>
