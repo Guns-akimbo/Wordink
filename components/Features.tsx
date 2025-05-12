@@ -1,9 +1,8 @@
-'use client'
+"use client";
 import FeatureList from "./FeatureList";
 import { Button } from "./ui/button";
 
 const Features = () => {
-
   const scrollToElement = (elementId: string) => {
     const element = document.getElementById(elementId);
     if (element) {
@@ -14,7 +13,7 @@ const Features = () => {
   const onCtaClick = () => {
     scrollToElement("pricing");
   };
-  
+
   return (
     <section className="bg-black/80 py-16 px-4  text-white" id="features">
       <div className="container mx-auto">
@@ -24,19 +23,17 @@ const Features = () => {
         <FeatureList
           features={[
             {
-              description: "Exclusive Access to 60-day Copywriting Training (Live & Recorded)",
+              description:
+                "Exclusive access to pre-recorded live video trainings.",
             },
             {
               description:
                 "Personalized Feedback on your copy and Access to 100+ Books and Swipe Files",
             },
+
             {
               description:
-                "LinkedIn Framework: Get seen, heard and hired on LinkedIn",
-            },
-            {
-              description:
-                "Gain Experience as a part Of WordInk’s copywriting team",
+                "6-months internship with WordInk so you can get your hands dirty with live projects.",
             },
             {
               description:
@@ -45,6 +42,10 @@ const Features = () => {
             {
               description:
                 "Lifetime Access To A Private Community; Join a network of 60+ copywriters to connect and grow.",
+            },
+            {
+              description:
+                "20-day consistency challenge on LinkedIn to get seen, heard, and hired by your dream clients.",
             },
           ]}
         />
@@ -57,11 +58,11 @@ const Features = () => {
         <FeatureList
           features={[
             {
-              title: "Bonus 1  (₦ 100,000 Value)",
-              description: "100+ High-Converting Copywriting Templates  ",
+              title: "Bonus 1  (₦ 20,000 Value)",
+              description: "Certificate of Completion ",
             },
             {
-              title: "Bonus 2  (₦ 20,000 Value)",
+              title: "Bonus 2  (₦ 25,000 Value)",
               description: "Proven Cold Outreach Templates   ",
             },
             {
@@ -73,7 +74,7 @@ const Features = () => {
 
         <div className="flex items-center justify-center flex-col mt-10">
           <p className="text-base mb-8 laptop:text-2xl text-center">
-            Total Bonus Value: ₦155,000 + (At least 25% off) – All included for
+            Total Bonus Value: ₦80,000 + (At least 25% off) – All included for
             FREE if you Enroll Now!
           </p>
           <p className="text-base mb-8 laptop:text-2xl mx-auto  text-center">
@@ -81,7 +82,7 @@ const Features = () => {
           </p>
 
           <Button
-          onClick={onCtaClick}
+            onClick={onCtaClick}
             size="lg"
             className="bg-[#F97316] cursor-pointer hover:bg-[#E86305] text-white px-5 py-5 text-sm rounded-md"
           >

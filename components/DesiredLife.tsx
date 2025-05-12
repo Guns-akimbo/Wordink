@@ -59,15 +59,14 @@ const DesiredLifeSection = () => {
         
         <div className="text-center">
           <Button onClick={handleCtaClick} size="lg" className="bg-[#F97316] hover:bg-[#E86305] text-white   laptop:px-8 laptop:py-6  text-sm laptop:text-lg rounded-xl">
-            I WANT THIS LIFE - ENROLL NOW 
+            YOU WANT THIS LIFE - ENROLL NOW 
           </Button>
           
           <p className="mt-8 text-xl">
             Sounds too good to be true?
           </p>
           <p className="mt-4 text-lg max-w-3xl mx-auto">
-            Well, if you ask me, I'd say you've been working your ass off, and it's high time you start getting a lot more out of life.
-          </p>
+          Well, if you ask me, I'd say you've put in so much effort and it's high time you start getting a lot more out of life.          </p>
           <p className="mt-4 text-lg font-bold">
             Guess what? Today's your lucky day, because your dream life is just in front of you.
           </p>

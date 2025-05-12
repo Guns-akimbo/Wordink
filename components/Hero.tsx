@@ -23,8 +23,7 @@ const HeroSection = () => {
 
                 <div className="flex flex-col space-y-2 mb-6">
                   <h1 className="text-3xl laptop:text-5xl font-extrabold leading-tight mb- text-[#333]">
-                    The Only Copywriting Masterclass You’ll Need
-                  </h1>
+                  The Only Copywriting Masterclass You'll Ever Need                  </h1>
 
                   <p className="text-black text-lg">
                     To Transform You From Clueless to Closing High-Ticket

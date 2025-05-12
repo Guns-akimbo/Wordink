@@ -61,17 +61,14 @@ const Mentorship = () => {
           <Card className="border-l-4 border-l-[#F97316] shadow-lg ">
             <CardContent className="p-6">
               <p className="text-lg">
-                You’re more focused on stacking certificates than actually using
-                the skills. Simply put, you’re not ready for us and quite
-                frankly we’re not ready for you either.
+              You’re more focused on stacking certificates than actually using the skills. Simply put, we don't have the same goals.
               </p>
             </CardContent>
           </Card>
           <Card className="border-l-4 border-l-[#F97316] shadow-lg">
           <CardContent className="p-6">
             <p className="text-lg">
-              You’re looking for easy money. We’re not peddling dreams of a
-              quick money making scheme with zero effort.
+            You think anyone with writing knowledge can write copy. This is a common misconception of those who don't truly know the value of copywriting.
             </p>
           </CardContent>
         </Card>
@@ -87,9 +84,7 @@ const Mentorship = () => {
         <Card className="border-l-4 border-l-[#F97316] shadow-lg">
           <CardContent className="p-6">
             <p className="text-lg">
-              You think AI has copywriting all figured out. Here we train
-              original copywriters, if you keep running to AI for your copy
-              you’re just not who we’re looking for.
+            You think AI has copywriting all figured out. Here we train original copywriters whose copy beats AI everytime
             </p>
           </CardContent>
         </Card> 
