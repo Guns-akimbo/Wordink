@@ -1,7 +1,7 @@
 "use client";
 import  { useEffect, useState } from 'react';
 
-const COUNTDOWN_DATE = new Date('2025-05-19').getTime();
+const COUNTDOWN_DATE = new Date('2025-05-20').getTime();
 
 const CountdownTimer = () => {
   const [timeLeft, setTimeLeft] = useState({
